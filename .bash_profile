@@ -48,4 +48,4 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # Add bash git completion
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -f ~/homebrew/etc/bash_completion.d/git-completion.bash ] && . ~/homebrew/etc/bash_completion.d/git-completion.bash
